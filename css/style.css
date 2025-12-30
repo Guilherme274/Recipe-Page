@@ -17,7 +17,6 @@
 }
 
 body{
-    max-width: 2200px;
     background-color: var(--Stone100);
 }
 
@@ -37,6 +36,7 @@ main img{
     align-self: center;
     border: 2px solid white;
     border-radius: 20px;
+    width: 90%;
 }
 
 .main_apresentacao{
@@ -48,7 +48,7 @@ main img{
 }
 
 .main_preparo li, .main_item li{
-    font-size: 16px;
+    font-size: 1rem;
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
 }
@@ -104,7 +104,7 @@ li{
 
 hr{
     margin: 10px auto;
-    width: 800px;
+    width: 90%;
     opacity: 0.48;
 }
 
@@ -116,4 +116,29 @@ h1{
 h2, h3{
     font-size: 2rem;
     color: var(--Rose800);
+}
+
+@media (max-width: 800px){
+    body{
+        background-color: white;
+    }
+
+    main{
+        margin: auto;
+    }
+
+    main img{
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+    
+    .main_preparo{
+        background-color: white;
+        opacity: 1;
+    }
+
+    .main_preparo h3{
+        color: var(--Rose800);
+    }
 }
