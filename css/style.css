@@ -115,5 +115,5 @@ h1{
 
 h2, h3{
     font-size: 2rem;
-    color: purple;
+    color: var(--Rose800);
 }
