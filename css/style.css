@@ -39,6 +39,14 @@ main img{
     width: 90%;
 }
 
+main, .main_apresentacao, .main_preparo, .main_item {
+    box-sizing: border-box;
+}
+
+.main_apresentacao, .main_preparo, .main_item{
+    width: 90%;
+}
+
 .main_apresentacao{
     padding: 0 5%;
 }
@@ -79,7 +87,9 @@ main img{
 }
 
 .main_qtdReceita{
-    padding-left: 300px;
+    padding-left: 5%;
+    color: var(--Rose800);
+    font-weight: 800;
 }
 
 table{
@@ -121,6 +131,7 @@ h2, h3{
 @media (max-width: 800px){
     body{
         background-color: white;
+        max-width: 800px;
     }
 
     main{
@@ -132,7 +143,7 @@ h2, h3{
         margin: 0;
         border-radius: 0;
     }
-    
+
     .main_preparo{
         background-color: white;
         opacity: 1;
